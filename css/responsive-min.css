@@ -1,0 +1,424 @@
+@media screen and (min-width:4001px) {
+    .logo-bg-left {
+        width: 12%
+    }
+
+    .jobs {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .jobs .job-card img {
+        width: 800px;
+        height: 1131px;
+        border-radius: 10px
+    }
+
+    .jobs .job-opened-card img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 5px
+    }
+}
+
+@media screen and (max-width:4000px) {
+    .logo-bg-left {
+        width: 12%
+    }
+
+    .jobs {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .jobs .job-card img {
+        width: 600px;
+        height: 848px;
+        border-radius: 10px
+    }
+
+    .jobs .job-opened-card img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 5px
+    }
+
+    .change-btn-top {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .change-btn-bottom {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .perfil {
+        width: 300px
+    }
+
+    .foto-perfil {
+        width: 300px
+    }
+
+    .name-left {
+        width: 100%
+    }
+
+    .name {
+        width: 300px
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .logo-bg-left {
+        width: 15%
+    }
+
+    .jobs {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .jobs .job-card img {
+        width: 300px;
+        height: fit-content;
+        border-radius: 7px
+    }
+
+    .jobs .job-opened-card img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 5px
+    }
+
+    .change-btn-top {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .change-btn-bottom {
+        margin-left: 20%;
+        margin-right: 20%
+    }
+
+    .perfil {
+        width: 200px
+    }
+
+    .foto-perfil {
+        width: 200px
+    }
+
+    .name-left {
+        width: 100%
+    }
+
+    .name {
+        width: 200px
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .jobs {
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .jobs .job-card img {
+        width: 300px;
+        height: 425px;
+        border-radius: 5px;
+        -webkit-transition: ease-out .2s;
+        -moz-transition: ease-out .2s;
+        transition: ease-out .2s
+    }
+
+    .change-btn-top {
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .change-btn-bottom {
+        margin-left: 10%;
+        margin-right: 10%
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .menu {
+        height: 100%;
+        display: flex;
+        flex-direction: row
+    }
+
+    .jobs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .jobs .job-card img {
+        border-radius: 5px
+    }
+
+    .change-btn-top {
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .change-btn-bottom {
+        margin-left: 10%;
+        margin-right: 10%
+    }
+}
+
+@media screen and (max-width:720px) {
+    .menu {
+        display: none
+    }
+
+    .jobs {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .jobs .job-card img {
+        width: 100%;
+        max-width: 100%;
+        height: fit-content;
+        max-height: fit-content;
+        border-radius: 5px
+    }
+
+    .jobs .job-opened-card img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 5px
+    }
+
+    .jobs .job-opened-card img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 5px
+    }
+
+    .sobre-page {
+        flex-direction: column
+    }
+
+    .perfil {
+        width: 60%;
+        max-width: 60%;
+        margin-bottom: 50px
+    }
+
+    .foto-perfil {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .name {
+        padding-left: 5px
+    }
+
+    .name-left {
+        width: 100%
+    }
+
+    .resumo {
+        margin-left: 0
+    }
+
+    .resumo .presentation {
+        font-size: 16px;
+        width: 60%
+    }
+
+    @keyframes resumo_slidein {
+        from {
+            margin-left: 40%;
+            opacity: 0
+        }
+
+        to {
+            margin-left: 0;
+            opacity: 1
+        }
+    }
+
+    .contato {
+        flex-direction: column;
+        justify-content: end
+    }
+
+    .direitos {
+        margin-top: 10px
+    }
+
+    .skill-item {
+        padding: 20px
+    }
+
+    .skill-title {
+        font-size: 30px
+    }
+
+    .info-title {
+        font-size: 40px
+    }
+}
+
+@media screen and (min-width:721px) {
+    .menu {
+        height: 100%;
+        display: flex;
+        flex-direction: row
+    }
+
+    .hamburguer {
+        display: none
+    }
+
+    .jobs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contato {
+        border-left: solid 17px var(--cinza)
+    }
+}
+
+@media screen and (max-width:420px) {
+    .logo-bg-left {
+        width: 30%
+    }
+
+    .home {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .a-logo p {
+        font-size: 12px
+    }
+
+    .contato-bg {
+        height: 120px
+    }
+
+    .contato {
+        height: 120px
+    }
+
+    .contato ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto
+    }
+
+    .contato ul h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 5px;
+        margin-right: 5px
+    }
+
+    .contato ul li {
+        margin-left: 5px;
+        margin-right: 5px
+    }
+
+    .contato ul li h4 {
+        display: none
+    }
+
+    .contato ul li a i {
+        font-size: xx-large
+    }
+
+    .direitos {
+        align-self: center;
+        font-size: 12px
+    }
+
+    .perfil {
+        width: 100%;
+        max-width: 100%
+    }
+
+    .skills h3 {
+        font-size: 30px
+    }
+
+    .skill-item {
+        margin-top: 15px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #dfdfdf
+    }
+
+    .skill-title {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 500
+    }
+
+    .info-title {
+        font-size: 30px
+    }
+
+    .resumo .presentation {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:270px) {
+    .logo-bg-left {
+        width: 25%
+    }
+
+    .logo-bg {
+        width: 40%
+    }
+
+    .a-logo h1 {
+        display: none
+    }
+
+    .contato ul h3 {
+        display: none
+    }
+
+    .contato-bg {
+        height: 150px
+    }
+
+    .contato {
+        height: 150px
+    }
+
+    .direitos {
+        max-width: 50%;
+        text-align: center
+    }
+
+    .info-title {
+        font-size: 20px
+    }
+}

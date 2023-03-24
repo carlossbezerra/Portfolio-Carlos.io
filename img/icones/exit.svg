@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.003" height="20.003" viewBox="0 0 83 83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Retângulo_1" data-name="Retângulo 1" class="cls-1" d="M10.607,0L82.922,72.315,72.315,82.922,0,10.607Z"/>
+  <path id="Retângulo_1_copiar" data-name="Retângulo 1 copiar" class="cls-1" d="M72.381,0l-72.4,72.4L10.6,83.015,83,10.619Z"/>
+</svg>

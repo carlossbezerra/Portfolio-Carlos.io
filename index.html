@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Carlos Augusto</title>
+    <link rel="shortcut icon" href="img/icones/favicon.ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style-min.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive-min.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="pre-load">
+        <div class="load-box"></div>
+    </div>
+    <div class="content">
+        <header class="home">
+            <div class="logo">
+                <div class="logo-bg-left"></div>
+                <div class="logo-bg"></div><a class="a-logo" href=""> <img style="width: 36px;"
+                        src="img/icones/favicon_logo.ico.ico" alt="">
+                    <h1>&nbsp;Portfólio</h1>
+                </a>
+            </div>
+            <div class="hamburguer" onclick="mobileMenu()"> <img src="img/icones/menu.svg" alt=""> </div>
+            <nav class="menu">
+                <div onclick="viewAbout()" class="sobre"> sobre mim </div>
+                <div onclick="viewCardByjobType('digital')" class="digital"> digital </div>
+                <div onclick="viewCardByjobType('grafico')" class="grafico"> gráfico </div>
+                <div onclick="viewCardByjobType('diagramacao')" class="diagramacao"> diagramação </div>
+            </nav>
+        </header>
+        <div class="change-btn-top">
+            <div class="back" onclick='changeJob("left")'> <img src="img/icones/back.svg" alt="">
+                <h3>Anterior</h3>
+            </div>
+            <div class="next" onclick='changeJob("right")'>
+                <h3>Próximo</h3> <img src="img/icones/next.svg" alt="">
+            </div>
+        </div>
+        <section class="jobs">
+            <div id="molde" class="job-card" onclick="openCard(this.id)"> <img> </div>
+        </section>
+        <div class="change-btn-bottom">
+            <div class="back" onclick='changeJob("left")'> <img src="img/icones/back.svg" alt="">
+                <h3>Anterior</h3>
+            </div>
+            <div class="next" onclick='changeJob("right")'>
+                <h3>Próximo</h3> <img src="img/icones/next.svg" alt="">
+            </div>
+        </div>
+        <section class="sobre-page">
+            <div class="perfil">
+                <div class="foto-perfil"> <img src="img/perfil/Perfil.png">
+                    <div class="name">
+                        <p style="font-weight: 500;"> Carlos Augusto </p>
+                        <p style="font-style: italic; font-weight: 300;"> Designer / Dev front-end </p>
+                    </div>
+                    <div class="name-left"></div>
+                </div>
+                <div class="skills">
+                    <h3 style="font-style: italic;">Skills</h3>
+                    <div class="skill-item">
+                        <h4 class="skill-title"></h4>
+                        <div class="skill-bar">
+                            <div class="skill-level"></div>
+                            <div class="skill-level"></div>
+                            <div class="skill-level"></div>
+                            <div class="skill-level"></div>
+                            <div class="skill-level"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="resumo">
+                <h2>Sobre mim</h2> <br><br>
+                <p
+                    style="position: absolute; padding-left: 20px; font-size: 35px; font-weight:900; font-style: italic;">
+                    Olá!</p><br>
+                <p class="presentation">Eu me chamo Carlos, estudante de ciência da computação, sou <b>designer gráfico</b>, <b>diagramador</b> e
+                    <b>desenvolvedor front-end</b>. <br><br>Minha especialidade é a elaboração e planejamento de
+                    projetos gráficos, a partir da busca e análise de informações que serão transformadas em uma solução
+                    visual, seja por meio <b>impresso</b> ou <b>digital</b>.</p><br><br>
+                <div class="line"></div>
+                <h3>Formação Acadêmica</h3> <br><br>
+                <p class="resumo-title">Superior em Ciência da Computação</p>
+                <p class="resumo-org">Faculdade Estácio do Amazonas</p>
+                <p class="resumo-period">jan 2020 - dez 2024</p><br><br>
+                <p class="resumo-title">Técnico em Informática</p>
+                <p class="resumo-org">Faculdade Estácio do Amazonas</p>
+                <p class="resumo-period">jan 2017 - jul 2019</p><br><br>
+                <div class="line"></div>
+                <h3>Experiência Profissional</h3> <br><br>
+                <p class="resumo-title">Designer Freelancer</p>
+                <p class="resumo-org">99Freelas</p>
+                <p class="resumo-period">a partir de 2021</p><br><br>
+                <p class="resumo-title">Designer Gráfico</p>
+                <p class="resumo-org">PRINT-TEC</p>
+                <p class="resumo-period">mar 2010 - fev 2020</p><br><br>
+                <p class="resumo-title">Assistente de Designer</p>
+                <p class="resumo-org">E.E. DEVs</p>
+                <p class="resumo-period">jan 2013 - dez 2014</p><br><br>
+                
+                <div class="line"></div>
+                <h3>Cursos</h3> <br><br>
+                <p class="resumo-title">Bootcamp Web Developer</p>
+                <p class="resumo-org">Digital Innovation one - TakeBlip</p>
+                <p class="resumo-period">fev 2022</p><br><br>
+                <p class="resumo-title">Adobe Illustrator CC Master Class</p>
+                <p class="resumo-org">Udemy</p>
+                <p class="resumo-period">jul 2020</p><br><br>
+                <p class="resumo-title">Planejamento Visual e Gráfico</p>
+                <p class="resumo-org">Alura</p>
+                <p class="resumo-period">mai 2020</p><br><br>
+                <p class="resumo-title">Design Contemporâneo</p>
+                <p class="resumo-org">Alura</p>
+                <p class="resumo-period">mai 2020</p><br><br>
+                <p class="resumo-title">Programação de Computadores</p>
+                <p class="resumo-org">Alura</p>
+                <p class="resumo-period">mai 2020</p><br><br>
+                <p class="resumo-title">Orientação Técnica - Filmagem e Edição BÁSICO</p>
+                <p class="resumo-org">Alura</p>
+                <p class="resumo-period">ago 2019</p><br><br>
+                <p class="resumo-title">Oficina de Direção Cinematográfica Artística</p>
+                <p class="resumo-org">Alura</p>
+                <p class="resumo-period">mar 2019</p><br><br>
+                
+            </div>
+        </section>
+        <div class="contato-bg"></div>
+        <footer class="contato">
+            <ul>
+                <h3 class="contato-titulo">Contato</h3>
+                <li class="contato-item"><a href="mailto: guilhermenogueira.design@gmail.com"><i
+                            class="fas fa-envelope-square"></i>
+                        <h4>tecnicgb@hotmail.com</h4>
+                    </a></li>
+                <li class="contato-item"><a href="https://www.linkedin.com/in/carlosaugustogoncalves/"
+                        target="_blank"><i class="fab fa-linkedin"></i>
+                        <h4>Perfil do LinkedIn</h4>
+                    </a></li>
+                <li class="contato-item"><a href="tel:+5592993201241"><i class="fab fa-whatsapp-square"></i>
+                        <h4>(92) 99320-1241</h4>
+                    </a></li>
+            </ul>
+            <div class="direitos"> © 2023 Carlos Augusto </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/42d98febad.js" crossorigin="anonymous"></script>
+    <script src="js/script-min.js"></script>
+</body>
+
+</html>
